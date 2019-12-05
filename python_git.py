@@ -1,7 +1,7 @@
 #from git import Repo
 import subprocess
 a = 'qa'
-text = 'qa12-012'
+text = 'qa12-013'
 with open("test2", "a") as myfile:
     myfile.write(text)
 
@@ -13,5 +13,5 @@ if ( a == 'master' ):
 else:
     subprocess.check_output('git checkout qa', shell=True)
     subprocess.check_output('git add .', shell=True)
-    subprocess.check_output('git commit -m "2commit"', shell=True)
+    subprocess.check_output('git commit -m "3commit"', shell=True)
     subprocess.check_output('git push origin qa', shell=True)
