@@ -1,7 +1,7 @@
 #from git import Repo
 import subprocess
 a = 'qa'
-text = 'qa12-014 \n'
+text = 'qa12-16 \n'
 with open("test2", "a") as myfile:
     myfile.write(text)
 
