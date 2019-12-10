@@ -9,4 +9,4 @@ text = 'qa12-22 \n'
 with open("test", "a") as myfile:
     myfile.write(text)
 
-subprocess_cmd('git checkout -b dev; git add .; git commit -m "111 commit";git push origin master')
+subprocess_cmd('git checkout -b dev; git add .; git commit -m "111 commit";git push origin dev')
