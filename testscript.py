@@ -9,5 +9,5 @@ text = 'qa12-24445wertyuytrjhgfde \n'
 with open("test_1", "w") as myfile:
     myfile.write(text)
 
-
+branch_name = 'dev'
 subprocess_cmd('git checkout -b "$branch_name"; git add .; git commit -m "111 commit";git push origin $branch_name')
