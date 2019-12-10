@@ -10,4 +10,4 @@ with open("test_1", "w") as myfile:
     myfile.write(text)
 
 
-subprocess_cmd('git checkout -b $branch_name; git add .; git commit -m "111 commit";git push origin $branch_name')
+subprocess_cmd('git checkout -b `$branch_name`; git add .; git commit -m "111 commit";git push origin $branch_name')
