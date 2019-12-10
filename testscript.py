@@ -5,7 +5,7 @@ def subprocess_cmd(command):
     print(proc_stdout)
 
 branch_name = 'dev'
-text = 'qa12-24445wertyuytrjhgfde \n'
+text = 'qa12-24445wertyuytrjhgf1234567890-de \n'
 with open("test_1", "w") as myfile:
     myfile.write(text)
 
