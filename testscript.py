@@ -5,7 +5,7 @@ def subprocess_cmd(command):
     print(proc_stdout)
 
 a = 'dev'
-text = 'qa12-24445 \n'
+text = 'qa12-24445wertyuytr \n'
 with open("test_1", "w") as myfile:
     myfile.write(text)
 
