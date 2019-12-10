@@ -6,7 +6,7 @@ def subprocess_cmd(command):
 
 a = 'dev'
 text = 'qa12-24445 \n'
-with open("test", "a") as myfile:
+with open("test_1", "w") as myfile:
     myfile.write(text)
 
 subprocess_cmd('git checkout -b dev; git add .; git commit -m "111 commit";git push origin dev')
