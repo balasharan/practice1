@@ -1,6 +1,6 @@
 import subprocess
 a = 'master'
-text = 'qa12-22 \n'
+text = 'qa1 \n'
 with open("test", "a") as myfile:
     myfile.write(text)
 try:
