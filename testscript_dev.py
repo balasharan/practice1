@@ -5,7 +5,7 @@ def subprocess_cmd(command):
     print(proc_stdout)
 
 branch_name = 'dev'
-version_text = 'working code - safeway \n'
+version_text = 'working code - eway \n'
 
 if ( branch_name == 'master' ):
     with open("version_file", "w") as myfile:
