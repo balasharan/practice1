@@ -4,8 +4,8 @@ import subprocess
 #     repo_dir = 'practice1'
 #     repo = Repo(repo_dir)
 #     file_list = [
-#         '/Users/Nisum/git/practise1/test',
-#         #'/Users/Nisum/git/practice1/python_git.py'
+#         '/Users/isum/git/practise1/test',
+#         #'/Users/isum/git/practice1/python_git.py'
 #     ]
 #     commit_message = 'Add simple regression analysis'
 #     repo.index.add(file_list)
